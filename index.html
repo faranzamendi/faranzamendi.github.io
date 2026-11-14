@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabrizio Aranzamendi Zenteno | AI Engineer, LLMs, Agents & Automation</title>
+  <meta name="description" content="Portafolio profesional de Fabrizio Guillermo Aranzamendi Zenteno — AI Engineer especializado en LLMs, Agentes Autónomos, RAG, MCP y Automatización. Certificado por AWS, Google, IBM y Anthropic." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fondo ambiental decorativo -->
+  <div class="ambient-glow ambient-glow--1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--2" aria-hidden="true"></div>
+
+  <!-- Barra de navegación -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#hero" class="brand" aria-label="Inicio - Fabrizio Aranzamendi">
+        <span class="brand-badge">FA</span>
+        <div class="brand-text">
+          <span class="brand-name">Fabrizio Aranzamendi</span>
+          <span class="brand-role">AI Engineer · BSKR Founder</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#hero" class="nav-link active">Inicio</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#trayectoria" class="nav-link">Trayectoria</a>
+        <a href="#proyectos" class="nav-link">Proyectos y Formación</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar tema de color" title="Cambiar tema claro/oscuro">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <a href="cv.pdf" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+          <span>CV PDF</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECCIÓN 1: HERO -->
+    <section class="hero-section section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>100% Remoto · Disponible para reubicación inmediata a Lima (San Isidro)</span>
+          </div>
+
+          <p class="hero-eyebrow">FABRIZIO GUILLERMO ARANZAMENDI ZENTENO</p>
+          <h1 class="hero-title">
+            AI Engineer <span class="text-gradient">| LLMs, Agentes &amp; Automatización</span>
+          </h1>
+          <p class="hero-subtitle">
+            AWS, Google, IBM &amp; Anthropic Claude Academy Certified · Fundador de <strong>BSKR – AI &amp; Automation</strong> · Instructor Corporativo y Docente Superior
+          </p>
+
+          <p class="hero-bio">
+            Ingeniero de IA con <strong>+4 años de experiencia en docencia técnica práctica</strong> y <strong>+8 años liderando infraestructura, seguridad y operaciones TI</strong>. Diseño y construyo soluciones de IA de extremo a extremo: agentes autónomos basados en LLMs (<em>Agents as a Service</em>), pipelines <strong>RAG</strong>, integraciones con <strong>Model Context Protocol (MCP)</strong>, ingeniería de prompts y automatización de flujos con <strong>n8n y Make</strong>. Combino plataformas Cloud (Google Vertex AI, Gemini, AWS) con despliegues locales open-source (Ollama, DeepSeek) bajo un enfoque <em>FinOps</em> para proteger la privacidad de datos y optimizar costos.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contacto" class="btn btn-primary">
+              <span>Contactar ahora</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <button type="button" class="btn btn-secondary copy-email-trigger" data-email="faranzamendi@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <span class="copy-label">Copiar mi correo al portapapeles</span>
+            </button>
+            <a href="cv.pdf" download="Fabrizio_Aranzamendi_CV.pdf" class="btn btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              <span>Descargar CV</span>
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-value">8+</span>
+              <span class="metric-label">Años en TI, Redes &amp; Seguridad</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">4+</span>
+              <span class="metric-label">Años en Docencia &amp; Capacitación</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">25+</span>
+              <span class="metric-label">Certificaciones IA, Cloud &amp; Gestión</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-value">B2 / C2</span>
+              <span class="metric-label">Inglés B2 · Español Nativo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-image-wrapper">
+              <img src="profile.jpg" alt="Retrato profesional de Fabrizio Guillermo Aranzamendi Zenteno" class="profile-img" />
+              <div class="profile-Floating-badge badge-top">
+                <span class="badge-icon">🤖</span>
+                <div>
+                  <strong>Claude · DeepSeek · Gemini</strong>
+                  <span>Cloud &amp; Local AI Stack</span>
+                </div>
+              </div>
+              <div class="profile-Floating-badge badge-bottom">
+                <span class="badge-icon">⚡</span>
+                <div>
+                  <strong>"Construyo lo que enseño"</strong>
+                  <span>Agentes IA · RAG · MCP · n8n</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-quick-info">
+              <div class="quick-info-row">
+                <span class="info-label">📍 Ubicación</span>
+                <span class="info-val">Arequipa, Perú (Reubicación a Lima)</span>
+              </div>
+              <div class="quick-info-row">
+                <span class="info-label">🏢 Rol Actual</span>
+                <span class="info-val">Founder @ BSKR · Trainer @ New Horizons, TECSUP &amp; SENATI</span>
+              </div>
+              <div class="quick-info-row">
+                <span class="info-label">🎓 Especialidad</span>
+                <span class="info-val">LLMs, Agents as a Service, MCP, FinOps Cloud</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: HABILIDADES -->
+    <section class="skills-section section" id="habilidades">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">COMPETENCIAS Y ECOSISTEMA TECNOLÓGICO</span>
+          <h2 class="section-title">Habilidades y Herramientas</h2>
+          <p class="section-desc">
+            Combinación de ingeniería de inteligencia artificial, automatización de flujos, fundamentos sólidos de infraestructura/seguridad TI y capacidad pedagógica para transformar tecnología compleja en soluciones accionables.
+          </p>
+        </div>
+
+        <!-- Filtros interactivos de habilidades -->
+        <div class="filter-tabs" role="tablist" aria-label="Filtrar habilidades por categoría">
+          <button class="filter-tab active" data-skill-filter="all" role="tab" aria-selected="true">Todas las categorías</button>
+          <button class="filter-tab" data-skill-filter="tecnicas" role="tab" aria-selected="false">Habilidades Técnicas</button>
+          <button class="filter-tab" data-skill-filter="blandas" role="tab" aria-selected="false">Habilidades Blandas y Liderazgo</button>
+          <button class="filter-tab" data-skill-filter="herramientas" role="tab" aria-selected="false">Herramientas y Plataformas</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Tarjeta 1: Técnicas - IA, LLMs y Arquitectura de Agentes -->
+          <article class="skill-card" data-category="tecnicas">
+            <div class="skill-card-header">
+              <span class="skill-icon">🧠</span>
+              <div>
+                <span class="skill-category-badge badge-tech">Técnicas</span>
+                <h3>Ingeniería de IA, LLMs &amp; Agentes</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Diseño y despliegue de agentes autónomos, recuperación aumentada y protocolos de contexto en entornos híbridos.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">AI Agents (AaaS)</span>
+              <span class="tag tag-highlight">RAG (Retrieval-Augmented Generation)</span>
+              <span class="tag tag-highlight">MCP / Model Context Protocol</span>
+              <span class="tag">MCP Servers</span>
+              <span class="tag">Prompt Engineering</span>
+              <span class="tag">Vibe Coding</span>
+              <span class="tag">AI-Driven Code Automation</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Proofs of Concept (PoC)</span>
+              <span class="tag">Despliegue Local &amp; Privacidad</span>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2: Técnicas - Programación, Cloud, Redes y Ciberseguridad -->
+          <article class="skill-card" data-category="tecnicas">
+            <div class="skill-card-header">
+              <span class="skill-icon">🛡️</span>
+              <div>
+                <span class="skill-category-badge badge-tech">Técnicas</span>
+                <h3>Infraestructura, Cloud, Redes &amp; Seguridad</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Base sólida de +8 años en administración de sistemas críticos, seguridad perimetral, gobernanza cloud y desarrollo.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">Python</span>
+              <span class="tag tag-highlight">SQL &amp; Modelado de Datos</span>
+              <span class="tag tag-highlight">Linux &amp; Windows Server</span>
+              <span class="tag">FinOps &amp; Optimización de Costos</span>
+              <span class="tag">Gobernanza Cloud</span>
+              <span class="tag">Infraestructura Híbrida</span>
+              <span class="tag">Ciberseguridad &amp; Firewalls</span>
+              <span class="tag">VPN / VLAN / IDS / IPS</span>
+              <span class="tag">Control de Accesos</span>
+              <span class="tag">Arduino &amp; IoT</span>
+              <span class="tag">BCP / DRP (Continuidad)</span>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3: Blandas - Comunicación Técnica y Docencia -->
+          <article class="skill-card" data-category="blandas">
+            <div class="skill-card-header">
+              <span class="skill-icon">🎓</span>
+              <div>
+                <span class="skill-category-badge badge-soft">Blandas</span>
+                <h3>Comunicación Técnica &amp; Enablement</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Capacidad probada para traducir tecnologías complejas en conocimiento simple y accionable para equipos ejecutivos y técnicos.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">Comunicación Técnica Simplificada</span>
+              <span class="tag tag-highlight">Capacitación Corporativa y Ejecutiva</span>
+              <span class="tag">Facilitación de Talleres Prácticos</span>
+              <span class="tag">Aprendizaje Basado en Proyectos (PBL)</span>
+              <span class="tag">Metodología Activa</span>
+              <span class="tag">Evaluación por Competencias</span>
+              <span class="tag">Diseño Curricular y de Sílabos</span>
+              <span class="tag">Pensamiento Crítico</span>
+            </div>
+          </article>
+
+          <!-- Tarjeta 4: Blandas - Liderazgo TI, Gestión y Valores -->
+          <article class="skill-card" data-category="blandas">
+            <div class="skill-card-header">
+              <span class="skill-icon">🤝</span>
+              <div>
+                <span class="skill-category-badge badge-soft">Blandas</span>
+                <h3>Liderazgo de Proyectos TI &amp; Valores</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Dirección de áreas de TI, cumplimiento de SLAs críticos y trabajo 100% remoto con alta productividad y autonomía.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">Liderazgo de Equipos Técnicos</span>
+              <span class="tag tag-highlight">Gestión de Programas (IBM PM)</span>
+              <span class="tag">Gestión de Incidentes y SLAs</span>
+              <span class="tag">ITIL &amp; Mejores Prácticas</span>
+              <span class="tag">Gestión de Proveedores</span>
+              <span class="tag">Autonomía 100% Remota</span>
+              <span class="tag">Humildad y Empatía</span>
+              <span class="tag">Impulso de Mejora Continua</span>
+              <span class="tag">Transparencia</span>
+            </div>
+          </article>
+
+          <!-- Tarjeta 5: Herramientas - Modelos LLM, Automatización y Desarrollo IA -->
+          <article class="skill-card" data-category="herramientas">
+            <div class="skill-card-header">
+              <span class="skill-icon">⚡</span>
+              <div>
+                <span class="skill-category-badge badge-tools">Herramientas</span>
+                <h3>Modelos LLM, Automatización &amp; AI Coding</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Uso diario de modelos comerciales y open-source junto con orquestadores de flujos de trabajo y asistentes de código.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">Claude (Anthropic · Featured)</span>
+              <span class="tag tag-highlight">Claude Code</span>
+              <span class="tag tag-highlight">n8n</span>
+              <span class="tag tag-highlight">Make (Integromat)</span>
+              <span class="tag">DeepSeek</span>
+              <span class="tag">Google Gemini</span>
+              <span class="tag">OpenAI GPT</span>
+              <span class="tag">Ollama (Local LLMs)</span>
+              <span class="tag">LangChain &amp; Flowise</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">Zapier &amp; Power Automate</span>
+              <span class="tag">Cursor AI &amp; GitHub Copilot</span>
+              <span class="tag">Lovable</span>
+            </div>
+          </article>
+
+          <!-- Tarjeta 6: Herramientas - Cloud, Virtualización, Redes, Observabilidad y ERP -->
+          <article class="skill-card" data-category="herramientas">
+            <div class="skill-card-header">
+              <span class="skill-icon">☁️</span>
+              <div>
+                <span class="skill-category-badge badge-tools">Herramientas</span>
+                <h3>Cloud, Redes, Observabilidad &amp; Productividad</h3>
+              </div>
+            </div>
+            <p class="skill-card-summary">Plataformas empresariales para despliegue en la nube, contenedores, monitoreo en tiempo real y gestión corporativa.</p>
+            <div class="tag-cloud">
+              <span class="tag tag-highlight">Google Cloud (Vertex AI)</span>
+              <span class="tag tag-highlight">AWS</span>
+              <span class="tag tag-highlight">Microsoft Azure</span>
+              <span class="tag">Docker &amp; Kubernetes</span>
+              <span class="tag">VMware / Hyper-V / Proxmox</span>
+              <span class="tag">Palo Alto / Fortinet / MikroTik / Ubiquiti</span>
+              <span class="tag">Datadog / Grafana / Prometheus</span>
+              <span class="tag">AWS CloudWatch &amp; Azure Monitor</span>
+              <span class="tag">SAP Business One / Odoo / Oracle</span>
+              <span class="tag">Power BI &amp; Advanced Excel</span>
+              <span class="tag">Jira / Trello / Asana / Notion</span>
+              <span class="tag">Gamma AI / Canva / Moodle</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: TRAYECTORIA PROFESIONAL -->
+    <section class="timeline-section section" id="trayectoria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">EXPERIENCIA PROFESIONAL REAL (+8 AÑOS EN TI · +4 AÑOS EN DOCENCIA E IA)</span>
+          <h2 class="section-title">Trayectoria Profesional</h2>
+          <p class="section-desc">
+            Una evolución sólida desde la administración de redes, seguridad perimetral y jefaturas de infraestructura TI hasta la ingeniería de IA, automatización avanzada y capacitación ejecutiva.
+          </p>
+        </div>
+
+        <!-- Filtros de línea de tiempo -->
+        <div class="filter-tabs" role="tablist" aria-label="Filtrar experiencia profesional">
+          <button class="filter-tab active" data-exp-filter="all" role="tab" aria-selected="true">Toda la trayectoria (13)</button>
+          <button class="filter-tab" data-exp-filter="ia-docencia" role="tab" aria-selected="false">IA, Automatización y Docencia (5)</button>
+          <button class="filter-tab" data-exp-filter="liderazgo-ti" role="tab" aria-selected="false">Jefaturas TI, Redes y Seguridad (8)</button>
+        </div>
+
+        <div class="timeline" id="experienceTimeline">
+          <!-- Item 1 -->
+          <div class="timeline-item" data-exp-category="ia-docencia">
+            <div class="timeline-marker marker-active"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">09/2026 – Presente</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+                <span class="timeline-badge badge-current">Actual</span>
+              </div>
+              <h3 class="timeline-role">Corporate Trainer (Capacitador Corporativo)</h3>
+              <p class="timeline-company">New Horizons</p>
+              <ul class="timeline-achievements">
+                <li>Capacitación corporativa y ejecutiva en herramientas de IA aplicada, automatización y optimización de la productividad.</li>
+                <li>Diseño y facilitación de talleres prácticos (<em>hands-on workshops</em>) sobre modelos de lenguaje (LLMs), flujos de trabajo inteligentes y agentes autónomos para la transformación digital empresarial.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item" data-exp-category="ia-docencia">
+            <div class="timeline-marker marker-active"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">02/2026 – Presente</span>
+                <span class="timeline-location">📍 Perú</span>
+                <span class="timeline-badge badge-current">Actual</span>
+              </div>
+              <h3 class="timeline-role">Instructor de Tecnología</h3>
+              <p class="timeline-company">SENATI</p>
+              <ul class="timeline-achievements">
+                <li>Formación técnica en competencias y herramientas digitales aplicadas, combinando teoría y práctica mediante casos del mundo real.</li>
+                <li>Desarrollo de habilidades operativas, pensamiento crítico y criterio de aplicación para entornos laborales actuales con enfoque en productividad e innovación.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item" data-exp-category="ia-docencia">
+            <div class="timeline-marker marker-active"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">12/2025 – Presente</span>
+                <span class="timeline-location">📍 Arequipa / Remoto</span>
+                <span class="timeline-badge badge-current">Fundador</span>
+              </div>
+              <h3 class="timeline-role">Founder &amp; AI Engineer</h3>
+              <p class="timeline-company">BSKR – AI &amp; Automation</p>
+              <ul class="timeline-achievements">
+                <li>Diseño y construcción de soluciones de IA aplicada end-to-end en entornos <strong>Cloud</strong> (Google Vertex AI, Gemini, Google Workspace) y <strong>Local</strong> (Ollama, n8n y LLMs open-source como DeepSeek) para privacidad de datos y reducción de costos.</li>
+                <li>Implementación de agentes autónomos basados en LLMs (<em>Agents as a Service</em>), Vibe Coding, pipelines RAG, automatización de flujos con n8n y Make e integración de sistemas, incluyendo proyectos reales en el sector salud.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="timeline-item" data-exp-category="ia-docencia">
+            <div class="timeline-marker marker-active"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">07/2022 – Presente (4+ años)</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+                <span class="timeline-badge badge-current">Actual</span>
+              </div>
+              <h3 class="timeline-role">Technology Instructor (Docente de Educación Superior)</h3>
+              <p class="timeline-company">TECSUP</p>
+              <ul class="timeline-achievements">
+                <li>Instrucción en educación superior en sistemas operativos (Linux y Windows Server), fundamentos de programación en Python y Arduino, bases de datos SQL y modelado de datos, seguridad de la información y TI aplicada.</li>
+                <li>Aprendizaje basado en proyectos y orientado a competencias, con integración progresiva de automatización e IA aplicada en el aula.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="timeline-item" data-exp-category="ia-docencia">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">08/2025 – 02/2026</span>
+                <span class="timeline-location">📍 Perú</span>
+              </div>
+              <h3 class="timeline-role">Part-Time Instructor</h3>
+              <p class="timeline-company">IDAT</p>
+              <ul class="timeline-achievements">
+                <li>Docencia presencial del curso especializado en sistemas operativos basados en Linux, respaldado por más de 2 años dictando esta cátedra en diversas instituciones.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">07/2022 – 12/2022</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">IT Infrastructure Manager (Jefe de Infraestructura TI)</h3>
+              <p class="timeline-company">Clínica Daniel Alcides Carrión</p>
+              <ul class="timeline-achievements">
+                <li>Gestión integral de infraestructura tecnológica crítica en entorno hospitalario, aseguramiento de cumplimiento de SLAs y coordinación con proveedores tecnológicos.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">01/2022 – 08/2022</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">IT Security Officer (Oficial de Seguridad TI)</h3>
+              <p class="timeline-company">Estilos S.R.L.</p>
+              <ul class="timeline-achievements">
+                <li>Administración de firewalls perimetrales Palo Alto, túneles VPN y controles de acceso remoto seguro.</li>
+                <li>Administración de Microsoft 365, monitoreo de seguridad continuo y mitigación proactiva de riesgos.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">04/2021 – 02/2022</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">IT Department Lead (Jefe de TI)</h3>
+              <p class="timeline-company">Imagen Alternativa</p>
+              <ul class="timeline-achievements">
+                <li>Administración de redes corporativas, soporte a usuarios, gestión del sistema ERP SAP Business One y desarrollo de soluciones internas con Python y SQL.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">06/2019 – 06/2020</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">Technical Support Manager (Jefe de Soporte Técnico)</h3>
+              <p class="timeline-company">Lobo Sistemas S.A.C.</p>
+              <ul class="timeline-achievements">
+                <li>Liderazgo del equipo técnico de soporte, gestión de incidentes críticos y garantía de cumplimiento de acuerdos de nivel de servicio (SLA).</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 10 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">12/2017 – 08/2018</span>
+                <span class="timeline-location">📍 Tacna, Perú</span>
+              </div>
+              <h3 class="timeline-role">IT Department Lead (Jefe de TI)</h3>
+              <p class="timeline-company">Cooperativa de Ahorro y Crédito Toquepala</p>
+              <ul class="timeline-achievements">
+                <li>Soporte técnico especializado, administración de infraestructura crítica financiera y gestión de redes de alta seguridad con equipos Fortinet.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 11 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">01/2016 – 01/2019</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">IT Department Lead (Jefe de TI)</h3>
+              <p class="timeline-company">Obiettivo Lavoro Los Andes</p>
+              <ul class="timeline-achievements">
+                <li>Gestión de TI corporativa integral: administración de bases de datos, infraestructura de red y soporte técnico regional.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 12 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">08/2015 – 12/2015</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">Technical Support &amp; Helpdesk</h3>
+              <p class="timeline-company">Equipos Atenuz S.A.</p>
+              <ul class="timeline-achievements">
+                <li>Soporte técnico para más de 80 usuarios corporativos, administración de redes MikroTik y despliegue de soluciones WiFi empresariales con Ubiquiti.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 13 -->
+          <div class="timeline-item" data-exp-category="liderazgo-ti">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-date">05/2014 – 06/2015</span>
+                <span class="timeline-location">📍 Arequipa, Perú</span>
+              </div>
+              <h3 class="timeline-role">Network Administrator &amp; Technical Support Specialist</h3>
+              <p class="timeline-company">BS Grupo S.A.C. (03/2015 – 06/2015) · Asociación Civil San Juan Bautista (05/2014 – 02/2015)</p>
+              <ul class="timeline-achievements">
+                <li>Administración de red, soporte para +60 usuarios, balanceo de carga con MikroTik y mantenimiento preventivo/correctivo de infraestructura TI.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: PROYECTOS Y FORMACIÓN -->
+    <section class="projects-section section" id="proyectos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">SOLUCIONES APLICADAS, EDUCACIÓN SUPERIOR Y CREDENCIALES</span>
+          <h2 class="section-title">Proyectos Destacados y Formación</h2>
+          <p class="section-desc">
+            Iniciativas reales desarrolladas en BSKR y programas de formación ejecutiva, respaldadas por educación universitaria y certificaciones internacionales de Anthropic, IBM, AWS y Google.
+          </p>
+        </div>
+
+        <!-- Sub-sección: Proyectos e Iniciativas Reales -->
+        <h3 class="subsection-heading">🚀 Proyectos y Soluciones en Producción</h3>
+        <div class="projects-grid">
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-badge">BSKR · AI Architecture</span>
+              <span class="project-year">2025 – 2026</span>
+            </div>
+            <h4 class="project-title">Agentes Autónomos (AaaS) &amp; Pipelines RAG Híbridos</h4>
+            <p class="project-desc">
+              Arquitectura y despliegue de agentes basados en LLMs y sistemas RAG combinando Google Vertex AI y Gemini con modelos locales en Ollama y DeepSeek. Incluye implementaciones reales para el sector salud priorizando privacidad de datos sensibles y control de costos FinOps.
+            </p>
+            <div class="project-tags">
+              <span>Claude</span>
+              <span>DeepSeek</span>
+              <span>Ollama</span>
+              <span>Vertex AI</span>
+              <span>RAG</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="project-link">
+                <span>Ver perfil y casos en LinkedIn</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Automatización &amp; MCP</span>
+              <span class="project-year">2025 – 2026</span>
+            </div>
+            <h4 class="project-title">Orquestación de Flujos Empresariales con n8n, Make &amp; MCP</h4>
+            <p class="project-desc">
+              Integración de servidores <em>Model Context Protocol (MCP)</em>, Claude Code y flujos automatizados en n8n y Make para conectar bases de datos SQL, Google Workspace y APIs empresariales sin fricción operativa.
+            </p>
+            <div class="project-tags">
+              <span>MCP</span>
+              <span>n8n</span>
+              <span>Make</span>
+              <span>Claude Code</span>
+              <span>Python</span>
+            </div>
+            <div class="project-links">
+              <a href="#contacto" class="project-link">
+                <span>Solicitar demostración técnica</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card">
+            <div class="project-top">
+              <span class="project-badge">Executive Enablement</span>
+              <span class="project-year">2022 – 2026</span>
+            </div>
+            <h4 class="project-title">Programas de Transformación Digital e IA Aplicada</h4>
+            <p class="project-desc">
+              Diseño curricular y dictado de programas prácticos para empresas y educación superior (New Horizons, TECSUP, SENATI), entrenando equipos en Prompt Engineering, Vibe Coding, Linux, Python, Seguridad y Agentes IA.
+            </p>
+            <div class="project-tags">
+              <span>New Horizons</span>
+              <span>TECSUP</span>
+              <span>SENATI</span>
+              <span>Vibe Coding</span>
+              <span>PBL</span>
+            </div>
+            <div class="project-links">
+              <a href="cv.pdf" target="_blank" rel="noopener" class="project-link">
+                <span>Ver credenciales docentes en CV</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Sub-sección: Formación Académica y Certificaciones -->
+        <div class="edu-cert-grid">
+          <!-- Columna Educación -->
+          <div class="edu-column">
+            <h3 class="subsection-heading">🎓 Formación Académica</h3>
+            <div class="edu-list">
+              <article class="edu-card">
+                <span class="edu-date">Marzo 2026</span>
+                <h4>Data Science, Computer Science</h4>
+                <p class="edu-inst">Continental Florida University</p>
+                <p class="edu-detail">Especialización en ciencia de datos, algoritmos y computación aplicada a inteligencia artificial.</p>
+                <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="card-inline-link">Ver en LinkedIn ↗</a>
+              </article>
+
+              <article class="edu-card">
+                <span class="edu-date">01/2025 – 12/2030 (En curso)</span>
+                <h4>Ingeniería de Sistemas e Informática</h4>
+                <p class="edu-inst">Universidad Continental — Arequipa</p>
+                <p class="edu-detail">Formación universitaria en ingeniería de software, arquitectura de sistemas y gestión TI.</p>
+                <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="card-inline-link">Ver en LinkedIn ↗</a>
+              </article>
+
+              <article class="edu-card">
+                <span class="edu-date">2009 – 2011 (Titulado)</span>
+                <h4>Técnico en Redes y Comunicaciones de Datos</h4>
+                <p class="edu-inst">TECSUP — Arequipa</p>
+                <p class="edu-detail">Base de ingeniería en telecomunicaciones, redes empresariales, servidores y seguridad.</p>
+                <a href="cv.pdf" target="_blank" rel="noopener" class="card-inline-link">Ver en CV PDF ↗</a>
+              </article>
+            </div>
+          </div>
+
+          <!-- Columna Certificaciones -->
+          <div class="cert-column">
+            <h3 class="subsection-heading">🏅 Certificaciones Internacionales Destacadas</h3>
+            <div class="cert-list">
+              <article class="cert-card cert-featured">
+                <div class="cert-header">
+                  <span class="cert-issuer">Anthropic · Claude Academy</span>
+                  <span class="cert-date">Abr – Sep 2026</span>
+                </div>
+                <h4>+20 Certificaciones en Claude Academy &amp; Model Context Protocol (MCP)</h4>
+                <p>Teaching AI Fluency, AI Fluency for Educators &amp; Builders, Building Effective Human Agent Teams, Deploying Claude Enterprise, MCP (Intro &amp; Advanced), Claude Code 101 &amp; in Action.</p>
+                <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="card-inline-link">Credenciales en LinkedIn ↗</a>
+              </article>
+
+              <article class="cert-card cert-featured">
+                <div class="cert-header">
+                  <span class="cert-issuer">Amazon Web Services (AWS)</span>
+                  <span class="cert-date">Nov – Dic 2025</span>
+                </div>
+                <h4>AWS Academy Educator &amp; Generative AI Foundations</h4>
+                <p>Acreditación oficial como educador AWS Academy y graduado en fundamentos de IA Generativa (válido hasta Dic 2028).</p>
+                <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="card-inline-link">Credenciales en LinkedIn ↗</a>
+              </article>
+
+              <article class="cert-card cert-featured">
+                <div class="cert-header">
+                  <span class="cert-issuer">IBM &amp; Coursera</span>
+                  <span class="cert-date">Dic 2025 – Mar 2026</span>
+                </div>
+                <h4>IBM AI Developer &amp; IBM Program Manager Specialization</h4>
+                <p>Incluye IBM Generative AI Essentials, Prompt Engineering y Artificial Intelligence Essentials V2.</p>
+                <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="card-inline-link">Credenciales en LinkedIn ↗</a>
+              </article>
+
+              <article class="cert-card">
+                <div class="cert-header">
+                  <span class="cert-issuer">Google · Scrimba · Board Infinity</span>
+                  <span class="cert-date">2026</span>
+                </div>
+                <h4>Google AI · Vibe Coding Essentials · Mastering DeepSeek.ai</h4>
+                <p>Desarrollo de aplicaciones asistidas por IA, dominio de modelos open-source DeepSeek y certificaciones multi-cloud (Azure, AWS, GCP).</p>
+                <a href="cv.pdf" target="_blank" rel="noopener" class="card-inline-link">Ver listado completo en CV ↗</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: CONTACTO -->
+    <section class="contact-section section" id="contacto">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info">
+            <span class="section-tag">CONECTEMOS</span>
+            <h2 class="section-title">¿Listo para construir soluciones de IA o potenciar a tu equipo?</h2>
+            <p class="contact-desc">
+              Disponible para proyectos de ingeniería de IA, automatización con agentes y MCP, consultoría tecnológica, docencia corporativa o posiciones full-time (100% remoto o con <strong>reubicación inmediata a Lima - San Isidro</strong>).
+            </p>
+
+            <div class="contact-actions-primary">
+              <button type="button" class="btn btn-primary btn-lg copy-email-trigger" id="mainCopyEmailBtn" data-email="faranzamendi@gmail.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                <span class="copy-label">Copiar mi correo al portapapeles</span>
+              </button>
+              <span class="email-pill">faranzamendi@gmail.com</span>
+            </div>
+
+            <p class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></p>
+          </div>
+
+          <div class="contact-links-grid">
+            <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener" class="contact-card-link">
+              <div class="contact-card-icon">in</div>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/fabrizioaranzamendi</p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="mailto:faranzamendi@gmail.com" class="contact-card-link">
+              <div class="contact-card-icon">✉️</div>
+              <div>
+                <h3>Correo Electrónico</h3>
+                <p>faranzamendi@gmail.com</p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="https://wa.me/51924422306" target="_blank" rel="noopener" class="contact-card-link">
+              <div class="contact-card-icon">💬</div>
+              <div>
+                <h3>Teléfono / WhatsApp</h3>
+                <p>+51 924 422 306</p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <div class="contact-card-link contact-card-static">
+              <div class="contact-card-icon">📍</div>
+              <div>
+                <h3>Ubicación y Modalidad</h3>
+                <p>Mariano Melgar, Arequipa · Reubicación inmediata a Lima (San Isidro) · 100% Remoto</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>Fabrizio Guillermo Aranzamendi Zenteno</strong> · AI Engineer &amp; Founder of BSKR.</p>
+      <div class="footer-links">
+        <a href="#top">Volver arriba ↑</a>
+        <a href="cv.pdf" target="_blank" rel="noopener">Descargar CV (PDF)</a>
+        <a href="https://www.linkedin.com/in/fabrizioaranzamendi" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast flotante para confirmación de copiado -->
+  <div class="toast" id="clipboardToast" role="alert" aria-live="assertive" aria-hidden="true">
+    <span class="toast-icon">✓</span>
+    <span class="toast-text">¡Correo <strong>faranzamendi@gmail.com</strong> copiado al portapapeles!</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
